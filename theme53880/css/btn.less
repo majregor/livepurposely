@@ -1,0 +1,70 @@
+/* # Buttons
+================================================== */
+.btn, 
+.reply a.comment-reply-link {
+	background: #1a1a1a;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: none;
+	border-radius: 25px;
+	outline: none;
+	box-shadow: inset 0 0 0 1px transparent;
+	text-shadow: none;
+	position: relative;
+	letter-spacing: 0;
+	font: 18px/1.2em @lato;
+	color: @white;
+	overflow: hidden;
+	padding: 15px 40px;
+	z-index: 100;
+	.box-sizing(border-box);
+	.transition;
+
+	&:hover {
+		background: transparent;
+		box-shadow: inset 0 0 0 1px #e1e1e1;
+		color: #1e1e1e;
+	}
+	&:active,
+	&:focus {
+		box-shadow: inset 0 0 0 1px transparent;
+	}
+}
+.main-holder {
+	input[type="submit"], 
+	input[type="reset"] {
+		border: none;
+		padding: 15px 40px;
+		text-transform: inherit;
+		background: #1a1a1a;
+		color: #fff;
+		height: auto;
+		box-shadow: none;
+		border: 1px solid transparent;
+
+		&:hover {
+			background: @white;
+			color: #1a1a1a;
+			border-color: #e1e1e1;
+		}
+	}
+}
+.reply a.comment-reply-link {
+	text-transform: none;
+	font: 14px/1.2em @lato;
+	border: 1px solid #e1e1e1;
+	overflow: hidden;
+	background: @white;
+	box-shadow: none;
+	color: #1a1a1a;
+	.transition;
+
+	&:hover {
+		border-color: transparent;
+		background: #1a1a1a;
+		box-shadow: none;
+		color: @white;
+	}
+}
+/*/ Buttons */
